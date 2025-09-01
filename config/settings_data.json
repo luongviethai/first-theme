@@ -8,5 +8,26 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "custom-header": {
+        "type": "custom-header",
+        "settings": {}
+      },
+      "image-banner": {
+        "type": "image-banner",
+        "settings": {
+          "image": "shopify://shop_images/retail-shopping-package.jpg",
+          "image_height": 400,
+          "overlay_opacity": 30,
+          "heading": "Welcome to Our Store",
+          "text": "Discover our latest collections",
+          "button_label": "Shop Now",
+          "button_link": "",
+          "text_alignment": "center"
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }
