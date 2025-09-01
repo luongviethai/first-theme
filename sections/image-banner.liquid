@@ -1,5 +1,4 @@
 <div class="image-banner full-width" style="{% if section.settings.image %}background-image: url('{{ section.settings.image | img_url: 'master' }}'); background-size: cover;{% endif %} height: {{ section.settings.image_height }}px; position: relative;">
-  <div class="banner-overlay" style="background-color: rgba(0,0,0,{{ section.settings.overlay_opacity }}); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
   <div class="banner-content" style="position: relative; z-index: 1; text-align: {{ section.settings.text_alignment }}; padding: 20px;">
     {% if section.settings.heading != blank %}
       <h2>{{ section.settings.heading }}</h2>
@@ -12,7 +11,6 @@
     {% endif %}
   </div>
 </div>
-
 {% schema %}
 {
   "name": "Image Banner",
@@ -84,7 +82,7 @@
 {% stylesheet %}
 .image-banner {
   background-position: center;
-  color: white; /* Có thể tùy chỉnh màu chữ */
+  color: white; 
 }
 .banner-content h2 {
   font-size: 2.5em;

@@ -12,9 +12,14 @@
     "main": {
       "type": "custom-content",
       "settings": {}
+    },
+    "collections": {
+      "type": "collections",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "collections"
   ]
 }
