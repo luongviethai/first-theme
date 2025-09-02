@@ -1,10 +1,8 @@
 <header class="full-width">
   <div class="header__menu">
-    <a href="#">Home</a>
-    <a href="#">Women</a>
-    <a href="#">Men</a>
-    <a href="#">Collection</a>
-    <a href="#">Explore</a>
+    {% for link in menus['main-menu'].links %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
   </div>
   <h2 class="header__title">
     {{ shop.name | link_to: routes.root_url }}

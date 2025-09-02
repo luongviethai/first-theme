@@ -17,9 +17,14 @@
       "type": "collections",
       "settings": {}
     },
+    "products": {
+      "type": "feature-product",
+      "settings": {}
+    }
   },
   "order": [
     "main",
     "collections",
+    "products"
   ]
 }
