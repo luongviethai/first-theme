@@ -13,6 +13,10 @@
       "type": "custom-content",
       "settings": {}
     },
+    "image-banner": {
+      "type": "image-banner",
+      "settings": {}
+    },
     "collections": {
       "type": "collections",
       "settings": {}
@@ -24,6 +28,7 @@
   },
   "order": [
     "main",
+    "image-banner",
     "collections",
     "products"
   ]
