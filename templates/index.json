@@ -15,15 +15,36 @@
     },
     "image-banner": {
       "type": "image-banner",
-      "settings": {}
+      "settings": {
+        "image": "shopify://shop_images/retail-shopping-package.jpg",
+        "image_height": 400,
+        "overlay_opacity": 30,
+        "heading": "Welcome to Our Store",
+        "text": "Discover our latest collections",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "text_alignment": "center"
+      }
     },
     "collections": {
       "type": "collections",
-      "settings": {}
+      "settings": {
+        "grid_item_width": "collections--full",
+        "grid_gap": 10
+      }
     },
     "products": {
       "type": "feature-product",
-      "settings": {}
+      "settings": {
+        "title": "Featured Products",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "show_add_to_cart": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
